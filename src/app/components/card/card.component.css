@@ -10,22 +10,25 @@ html {
 .card {
   font-family: 'FORMULA-A', sans-serif;
   margin: auto;
-  margin-top: 245px;
-  border: 0.01875rem solid black;
-  width: 25rem;
-  height: 28.125rem;
-
-  background: linear-gradient(to right, #232323, #b90909, #B80000,#232323);
-
+  margin-top: 20px;
+  border: 3px solid #000;
+  width: 320px;
+  height: 480px;
+  background: linear-gradient(to right, #b90909, #B80000);
   display: flex;
   flex-direction: column;
-  border-radius: 0.625rem;
-
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 0;
+  font-size: 20px;
 }
 
 .card-title > h1 {
@@ -69,11 +72,27 @@ html {
   border-radius: 0.3125rem;
   padding: 0.3125rem;
   margin-right: 0.2625rem;
+  box-shadow: 0px 1px 17px 1px #000000;
 }
 
 .card-search {
   border-radius: 5%;
+  border: 2px solid #000;
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 1rem;
+  outline: none;
 }
+
+.card-search::placeholder {
+  color: #888;
+}
+
+.card-search:focus {
+  border-color: rgb(255, 255, 255);
+}
+
 
 .normal-background {
   background-color: #A8A77A;

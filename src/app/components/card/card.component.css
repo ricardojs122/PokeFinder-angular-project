@@ -1,0 +1,148 @@
+html {
+  font-size: 16px;
+}
+*{
+
+  text-transform: capitalize;
+
+}
+
+.card {
+  font-family: 'FORMULA-A', sans-serif;
+  margin: auto;
+  margin-top: 245px;
+  border: 0.01875rem solid black;
+  width: 25rem;
+  height: 28.125rem;
+
+  background: linear-gradient(to right, #232323, #b90909, #B80000,#232323);
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.625rem;
+
+}
+
+.card-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title > h1 {
+  color: white;
+  font-weight: bold;
+}
+
+.card-body {
+  background-color: #232323;
+  background-image: url(https://i.pinimg.com/originals/2b/3b/04/2b3b04771ccca26c3dd96d781b0117ca.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 16.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body > img {
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  min-width: 12rem;
+  max-width: 15.625rem;
+}
+
+.card-stats {
+  padding-top: 0.625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-stats-type {
+  font-size: 1.7rem;
+  color: black;
+  font-weight: bold;
+  border-radius: 0.3125rem;
+  padding: 0.3125rem;
+  margin-right: 0.2625rem;
+}
+
+.card-search {
+  border-radius: 5%;
+}
+
+.normal-background {
+  background-color: #A8A77A;
+}
+
+.fire-background {
+  background-color: #EE8130;
+}
+
+.water-background {
+  background-color:  #6390F0;
+}
+
+.electric-background {
+  background-color: #F7D02C;
+}
+
+.grass-background {
+  background-color: #7AC74C;
+}
+
+.ice-background {
+  background-color: #96D9D6;
+}
+
+.fighting-background {
+  background-color:  #C22E28;
+}
+
+.poison-background {
+  background-color:  #A33EA1;
+}
+
+.ground-background {
+  background-color:  #E2BF65;
+}
+
+.flying-background {
+  background-color: #A98FF3;
+}
+
+.psychic-background {
+  background-color: #F95587;
+}
+
+.bug-background {
+  background-color: #A6B91A;
+}
+
+.rock-background {
+  background-color: #B6A136;
+}
+
+.ghost-background {
+  background-color: #735797;
+}
+
+.steel-background {
+  background-color: #B7B7CE;
+}
+
+.dragon-background {
+  background-color: #6F35FC;
+}
+
+.dark-background {
+  background-color: #705746;
+}
+
+.fairy-background {
+  background-color: #D685AD;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/formula-a');
+
+body{
+ background-image: url(../src/assets/4827229.jpg);
+ background-size: cover;
+}
+.title{
+  font-size: 56px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'FORMULA-A', sans-serif;
+
+}
+
+

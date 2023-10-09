@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
 import { TestComponent } from './components/test/test.component';
 import { FormsModule } from '@angular/forms';
+import { PokemonDetailsComponent } from './components/pokemon-details/pokemon-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    TestComponent
+    TestComponent,
+    PokemonDetailsComponent,
+
   ],
   imports: [
     BrowserModule,

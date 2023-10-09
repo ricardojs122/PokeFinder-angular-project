@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { PokemonData } from 'src/app/models/pokemonData';
 import { PokemonService } from 'src/app/services/pokemon.service';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-card',
@@ -31,7 +33,7 @@ export class CardComponent {
 
   pokemon: PokemonData;
 
-  constructor(private service: PokemonService) {
+  constructor(private service: PokemonService, private router: Router) {
     this.pokemon = {
       id: 0,
       name: '',
@@ -74,6 +76,10 @@ export class CardComponent {
       return typeClasses;
     }
     return ['white-background'];
+  }
+  redirectToPokemonDetails() {
+    // Redirecionar para a página de detalhes do Pokémon usando seu ID ou nome
+    this.router.navigate(['/pokemon', this.pokemon.id]); // Supondo que você passe o ID do Pokémon para a rota de detalhes
   }
 
 }

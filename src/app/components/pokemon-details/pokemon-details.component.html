@@ -1,0 +1,19 @@
+<!-- pokemon-details.component.html -->
+<div class="pokemon-details">
+  <h2>Detalhes do Pokémon</h2>
+  <div class="pokemon-info">
+    <div class="pokemon-image">
+      <img [src]="pokemon.sprites.front_default" alt="{{ pokemon.name }}">
+    </div>
+    <div class="pokemon-data">
+      <h3>{{ pokemon.name }}</h3>
+      <p>ID: {{ pokemon.id }}</p>
+      <h4>Tipo(s):</h4>
+      <ul>
+        <li *ngFor="let type of pokemon.types">
+          <span class="type-label" [style.backgroundColor]="type.type.color">{{ type.type.name }}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
